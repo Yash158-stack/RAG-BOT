@@ -1,8 +1,8 @@
-<h3>✨ Project Title</h3>
+<h2>✨ Project Title</h2>
 
   RAGBot — Conversational AI powered by LangChain & Groq
 
-<h3>💡 Description</h3>
+<h2>💡 Description</h2>
 
   RAGBot combines document retrieval and large language models to build an AI chatbot that can read and answer questions from your own files.
   This project demonstrates:
@@ -15,7 +15,7 @@
 
    Persistent Chroma vector database to avoid repeated ingestion
 
-<h3>🧩 Tech Stack </h3>
+<h2>🧩 Tech Stack </h2>
   Component	  Description
   Language	  Python 3.10+
   Framework	   LangChain
@@ -25,7 +25,7 @@
   Document Loader	  PyPDFLoader
   Env Management	  python-dotenv
 
-<h3>⚙️ Installation </h3>
+<h2>⚙️ Installation </h2>
 
 1. Clone this repository
 
@@ -52,7 +52,7 @@
     python ragbot.py
 
 
-<h3>🧠 How It Works </h3>
+<h2>🧠 How It Works </h2>
 
 1. PDF Ingestion
 
@@ -92,7 +92,7 @@
 
     The bot maintains chat history context for natural, continuous conversation
 
-<h3>📸 Output Example </h3>
+<h2>📸 Output Example </h2>
 
   <p align="center">
     <img src="images/img1.png" width="600"/>
@@ -100,7 +100,7 @@
     <img src="images/img2.png" width="600"/>
   </p>
 
-<h3>⚡ Requirements </h3>
+<h2>⚡ Requirements </h2>
 <ul>
     <li>langchain</li>
     <li>langchain-core</li>
@@ -116,7 +116,7 @@
     <li>python-dotenv</li>
 </ul>
 
-<h3>👨‍💻 Author & Acknowledgments </h3> <br>
+<h2>👨‍💻 Author & Acknowledgments </h2> <br>
         Author: Yash Jain <br>
     📍 Built using LangChain & Groq <br>
     🧠 Inspired by open-source RAG pipilines and LLM integration techniques.
