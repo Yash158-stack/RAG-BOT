@@ -1,6 +1,6 @@
 <h3>✨ Project Title</h3>
 
-RAGBot — Conversational AI powered by LangChain & Groq
+    RAGBot — Conversational AI powered by LangChain & Groq
 
 <h3>💡 Description</h3>
 
