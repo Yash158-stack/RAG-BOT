@@ -113,8 +113,6 @@ Env Management	python-dotenv
 • python-dotenv
 
 👨‍💻 Author & Acknowledgments
-
     Author: Yash Jain
-
-    📍 Built with using LangChain & Groq
-    🧠 Inspired by open-source RAG pipelines and LLM integration techniques.
+    📍 Built using LangChain & Groq
+    🧠 Inspired by open-source RAG pipilines and LLm integration techniques.
