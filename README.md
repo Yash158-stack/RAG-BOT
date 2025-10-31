@@ -1,8 +1,8 @@
-✨ Project Title
+<h3>✨ Project Title</h3>
 
 RAGBot — Conversational AI powered by LangChain & Groq
 
-💡 Description
+<h3>💡 Description</h3>
 
 RAGBot combines document retrieval and large language models to build an AI chatbot that can read and answer questions from your own files.
 This project demonstrates:
@@ -15,7 +15,7 @@ Integration with Groq’s Llama-3.1-8B-Instant model for fast inference
 
 Persistent Chroma vector database to avoid repeated ingestion
 
-🧩 Tech Stack
+<h3>🧩 Tech Stack </h3>
 Component	Description
 Language	Python 3.10+
 Framework	LangChain
@@ -25,7 +25,7 @@ Vector Store	Chroma
 Document Loader	PyPDFLoader
 Env Management	python-dotenv
 
-⚙️ Installation
+<h3>⚙️ Installation </h3>
 
 1. Clone this repository
 
@@ -52,7 +52,7 @@ Env Management	python-dotenv
     python ragbot.py
 
 
-🧠 How It Works
+<h3>🧠 How It Works </h3>
 
 1. PDF Ingestion
 
@@ -91,7 +91,7 @@ Env Management	python-dotenv
 
     The bot maintains chat history context for natural, continuous conversation
 
-📸 Output Example
+<h3>📸 Output Example </h3>
 
 <p align="center">
   <img src="images/ragbot1.png" width="600"/>
@@ -99,7 +99,7 @@ Env Management	python-dotenv
   <img src="images/ragbot2.png" width="600"/>
 </p>
 
-⚡ Requirements
+<h3>⚡ Requirements </h3>
 <ul>
     <li>langchain</li>
     <li>langchain-core</li>
@@ -115,7 +115,7 @@ Env Management	python-dotenv
     <li>python-dotenv</li>
 </ul>
 
-👨‍💻 Author & Acknowledgments <br>
+<h3>👨‍💻 Author & Acknowledgments </h3> <br>
         Author: Yash Jain <br>
     📍 Built using LangChain & Groq <br>
-    🧠 Inspired by open-source RAG pipilines and LLm integration techniques.
+    🧠 Inspired by open-source RAG pipilines and LLM integration techniques.
