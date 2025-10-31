@@ -93,8 +93,8 @@ Env Management	python-dotenv
 
 📸 Output Example
 
-![RAGBot Demo](images/ragbot1.png)
-![RAGBot Demo](images/ragbot2.png)
+![RAGBot](images/ragbot1.png)
+![RAGBot](images/ragbot2.png)
 
 ⚡ Requirements
 • langchain
