@@ -36,7 +36,7 @@ Env Management	python-dotenv
 
     python -m venv venv
     venv\Scripts\activate   # for Windows
-    # or
+    or
     source venv/bin/activate   # for Mac/Linux
 
 3. Install dependencies
