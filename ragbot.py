@@ -17,7 +17,7 @@ def ingest_documents(pdf_path: str):
     Load a PDF, split it into chunks, embed, and save into Chroma vector DB.
     Run this function once for each new PDF you want to include in RAG.
     """
-    print(f"📄 Loading PDF: {pdf_path}")
+    print(f"Loading PDF: {pdf_path}")
     loader = PyPDFLoader(os.path.join("data", pdf_path))
     documents = loader.load()
 
@@ -27,17 +27,12 @@ def ingest_documents(pdf_path: str):
     )
 
     chunks = splitter.split_documents(documents)
-
-    print("⚙️ Generating embeddings and saving to Chroma DB...")
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
     db = Chroma.from_documents(chunks, embeddings, persist_directory="chroma_db")
     db.persist()
 
-    print("✅ Ingestion complete! Data saved to 'chroma_db'.")
-
-
-# ---------------- CACHED COMPONENTS ---------------- #
+    print("Ingestion complete! Data saved to 'chroma_db'.")
 
 def load_retriever():
     """
@@ -55,9 +50,6 @@ def load_retriever():
 
 retriever = load_retriever()
 
-# --------------------------------------------------- #
-
-# Initialize Groq LLM (only once)
 print("🚀 Initializing Groq LLM (llama-3.1-8b-instant)...")
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
@@ -107,8 +99,6 @@ rag_chain = (
     | prompt
     | llm
 )
-
-# ---------------- INTERACTIVE LOOP ---------------- #
 
 print("\n🟢 Ask your questions below.")
 print("Type 'exit' to stop.\n")
