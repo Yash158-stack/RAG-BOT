@@ -1,29 +1,29 @@
 <h3>✨ Project Title</h3>
 
-    RAGBot — Conversational AI powered by LangChain & Groq
+  RAGBot — Conversational AI powered by LangChain & Groq
 
 <h3>💡 Description</h3>
 
-RAGBot combines document retrieval and large language models to build an AI chatbot that can read and answer questions from your own files.
-This project demonstrates:
+  RAGBot combines document retrieval and large language models to build an AI chatbot that can read and answer questions from your own files.
+  This project demonstrates:
 
-Retrieval-Augmented Generation (RAG) architecture
+   Retrieval-Augmented Generation (RAG) architecture
 
-Efficient embeddings and vector search
+   Efficient embeddings and vector search
 
-Integration with Groq’s Llama-3.1-8B-Instant model for fast inference
+   Integration with Groq’s Llama-3.1-8B-Instant model for fast inference
 
-Persistent Chroma vector database to avoid repeated ingestion
+   Persistent Chroma vector database to avoid repeated ingestion
 
 <h3>🧩 Tech Stack </h3>
-Component	Description
-Language	Python 3.10+
-Framework	LangChain
-LLM Provider	Groq (Llama 3.1-8B Instant)
-Embeddings Model	Sentence Transformers — all-MiniLM-L6-v2
-Vector Store	Chroma
-Document Loader	PyPDFLoader
-Env Management	python-dotenv
+  Component	  Description
+  Language	  Python 3.10+
+  Framework	   LangChain
+  LLM Provider	  Groq (Llama 3.1-8B Instant)
+  Embeddings Model	  Sentence Transformers — all-MiniLM-L6-v2
+  Vector Store	  Chroma
+  Document Loader	  PyPDFLoader
+  Env Management	  python-dotenv
 
 <h3>⚙️ Installation </h3>
 
@@ -93,11 +93,11 @@ Env Management	python-dotenv
 
 <h3>📸 Output Example </h3>
 
-<p align="center">
-  <img src="images/ragbot1.png" width="600"/>
-  <br>
-  <img src="images/ragbot2.png" width="600"/>
-</p>
+  <p align="center">
+    <img src="images/ragbot1.png" width="600"/>
+    <br>
+    <img src="images/ragbot2.png" width="600"/>
+  </p>
 
 <h3>⚡ Requirements </h3>
 <ul>
