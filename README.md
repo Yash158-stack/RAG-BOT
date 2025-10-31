@@ -95,9 +95,9 @@
 <h3>📸 Output Example </h3>
 
   <p align="center">
-    <img src="images/ragbot1.png" width="600"/>
+    <img src="images/img1.png" width="600"/>
     <br>
-    <img src="images/ragbot2.png" width="600"/>
+    <img src="images/img2.png" width="600"/>
   </p>
 
 <h3>⚡ Requirements </h3>
