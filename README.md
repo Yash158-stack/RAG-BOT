@@ -67,13 +67,13 @@
 
     3. The script will automatically:
 
-        Load and read your PDFs
+        <li>Load and read your PDFs</li>
 
-        Split them into smaller text chunks
+        <li>Split them into smaller text chunks</li>
 
-        Generate embeddings
+        <li>Generate embeddings</li>
 
-        Store them in the chroma_db/ folder for future use
+        <li>Store them in the chroma_db/ folder for future use</li>
 
     👉 You don’t need to manually call any ingestion function — it all happens automatically the first time you run the bot.
 
