@@ -66,7 +66,7 @@
 
 
     3. The script will automatically:
-
+       <ul>
         <li>Load and read your PDFs</li>
 
         <li>Split them into smaller text chunks</li>
@@ -74,7 +74,7 @@
         <li>Generate embeddings</li>
 
         <li>Store them in the chroma_db/ folder for future use</li>
-
+      </ul>
     👉 You don’t need to manually call any ingestion function — it all happens automatically the first time you run the bot.
 
 2. Vector Database Creation
