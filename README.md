@@ -100,17 +100,20 @@ Env Management	python-dotenv
 </p>
 
 ⚡ Requirements
-• langchain
-• langchain-core
-• langchain-community
-• langchain-text-splitters
-• langchain-groq
-• langchain-huggingface
-• langchain-chroma
-• chromadb
-• sentence-transformers
-• pypdf
-• python-dotenv
+<ul>
+    <li>langchain</li>
+    <li>langchain-core</li>
+    <li>langchain-core</li>
+    <li>langchain-community</li>
+    <li>langchain-text-splitters</li>
+    <li>langchain-groq</li>
+    <li>langchain-huggingface</li>
+    <li>langchain-chroma</li>
+    <li>chromadb</li>
+    <li>sentence-transformers</li>
+    <li>pypdf</li>
+    <li>python-dotenv</li>
+</ul>
 
 👨‍💻 Author & Acknowledgments
     Author: Yash Jain
