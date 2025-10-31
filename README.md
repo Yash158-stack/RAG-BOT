@@ -75,6 +75,7 @@
 
         <li>Store them in the chroma_db/ folder for future use</li>
       </ul>
+      
     👉 You don’t need to manually call any ingestion function — it all happens automatically the first time you run the bot.
 
 2. Vector Database Creation
