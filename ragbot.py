@@ -77,6 +77,7 @@ prompt = ChatPromptTemplate.from_template(
     - Avoid repeating your name or previous messages unless necessary.
     - Keep your tone warm, confident, and approachable.
     - Whenever the user asks some keyword related to the document, try to respond using the context.
+    - Don't keep calling out the user's name, just use it naturally if it fits.
 
     Chat history:
     {chat_history}
